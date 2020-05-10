@@ -1,6 +1,6 @@
 :root {
   --body-bg-color: #fff;
-  --content-bg-color: #dfeff2;
+  --content-bg-color: #d3e8e8;
   --card-bg-color: #dfeff2;
   --text-color: #555;
   --blockquote-color: #666;
@@ -951,16 +951,16 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1200px) {
   .main-inner {
-    width: 800px;
+    width: 700px;
   }
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 @media (max-width: 767px) {
@@ -973,16 +973,16 @@ pre .javascript .function {
 }
 .header-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 800px;
+    width: 700px;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 .site-brand-container {
@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #faff71;
+  background: #16cbff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1413,16 +1413,16 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 800px;
+    width: 700px;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 900px;
+    width: 800px;
   }
 }
 .languages {
