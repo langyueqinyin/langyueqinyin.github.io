@@ -16454,7 +16454,9 @@
   <entry>
     <title>2020年6月18日，洛杉矶没有新闻</title>
     <url>/2020/06/18/198%202020%E5%B9%B46%E6%9C%8818%E6%97%A5%EF%BC%8C%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%B2%A1%E6%9C%89%E6%96%B0%E9%97%BB/</url>
-    <content><![CDATA[<p>##2020年6月18日，洛杉矶没有新闻<br>（本文不是标准意义上的非虚构作品，有大量未查证/无法确认/推测的内容。请不要当成新闻报道阅读。）</p>
+    <content><![CDATA[<p>2020年6月18日，洛杉矶没有新闻<br>（本文不是标准意义上的非虚构作品，有大量未查证/无法确认/推测的内容。请不要当成新闻报道阅读。）</p>
+<a id="more"></a>
+
 <p>2020年6月18日，美国洛杉矶市，天气阴。漫天都是云朵，像是巨大的灰色铁幕，罩在整个洛杉矶的上空。<br>艾琳娜戴好口罩、橡胶手套，又把消毒喷雾和桶装消毒湿巾放进车里。车里还有一把折叠沙滩椅，后窗下面放着一件开身牛仔上衣，领口处放着一张照片。<br>她摸了摸那件牛仔上衣，说，“宝贝。”<br>她回屋子去给狗牵狗绳，三只布鲁塞尔格里芬犬团团绕在她的脚边疯狂地晃着尾巴。她抱起那只看上去最有主意的Elvis的前腿，把狗绳拴好之后另一手拿上了它的小床。<br>她的身形被灰色的狗床衬得格外瘦小，步子却格外笃定。<br>一切准备停当后，她发动汽车。艾琳娜已经有好几年不听音乐了，她打开车上的新闻广播，听了没两句又关掉。她也不需要交通导航，因为这条路她几乎每天都要走一遍——从她位于影视城的家前往好莱坞永恒墓地。<br>从曾经是她的独生子安东·尤金的家，前往如今他睡着的地方。</p>
 <p>2016年6月18日晚，是安东一位多年好友的生日聚会。<br>他们的乐队本打算在当晚的晚些时候聚在一起排练——或者说，玩些曲子。安东蓬勃无羁的创造力在音乐上同样有着体现，特别是当他们的乐队随着年龄增长渐渐从摇滚转向了车库朋克风格之后，曲风的束缚仿佛一层层被剥离掉，而更加直接地传达出他们的想法。<br>但是安东没有来。在18日夜到19日凌晨的某个时间，他们开车去了他的家，山路上没有一盏灯，黑得伸手不见五指，静得令人发慌。<br>后来，他们打电话叫来了安东的父母。</p>
 <p>那一晚后数月，纪念安东的安东·尤金基金会宣告成立，进行日常执行维护的是那夜过生日的戴夫。截至今日，基金会已经帮助了近十位身患疾病或残疾的艺术家，更向南加州大学下属的囊肿性纤维化诊所捐款一百万美元，大幅度增加了诊所的每周接诊容量，为更多患者增加了生的希望。<br>同样是在那件事发生之后三四个月，一同去他家找他的安东好友瑞恩和他的女朋友确定了关系。他曾经一度因为这起事故而饱受心理折磨——对于少年丧父的他来说，安东一直以来的陪伴和扶持非同寻常。甚至有很长一段时间，他都没办法再度打开那些和安东在一起的合照。<br>时光荏苒，他和他的女友至今感情稳定，经常在社交网络上发布甜蜜的动态。瑞恩在他们确定关系三周年时对她告白说，“你是我的珍宝”。</p>
@@ -16467,6 +16469,51 @@
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <tags>
         <tag>Anton Yelchin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Avid Activation Notes for Mac</title>
+    <url>/2020/06/26/Avid-Activation-Notes-for-Mac/</url>
+    <content><![CDATA[<p>Re: Media Composer won’t open: stuck in app manager</p>
+<p>Replied by Marc Cebrian</p>
+<p><a href="http://40.76.25.97/forums/p/197462/884349.aspx" target="_blank" rel="noopener">source link</a></p>
+<a id="more"></a>
+
+<p>Try this. It is from Avid:</p>
+<p>FOR WINDOWS*</p>
+<ol>
+<li>Stop the following Processes in Task Manager:<br>• AvidLink.exe<br>• AvidAppManHelper.exe<br>• AvidBackgroundservices</li>
+</ol>
+<ol start="2">
+<li>Unhide hidden files and folders on your Windows computer.<br>• (Windows 7 / 8) Go to Control Panel &gt; Folder Options<br>(Windows 10) Open Folder Options &gt; open “This PC”, click View and select Options.<br>• Click on the View tab.<br>• In the Folder Options window, choose View, select “Show hidden files, folders and drives”, and then click OK.</li>
+</ol>
+<p>(Or you can type %programdata% on any folder’s address bar and hit Enter.)</p>
+<ol start="3">
+<li>Delete the following folders:<br>• C:\ProgramData\Avid\AvidLink\Cache<br>• C:\ProgramData\Avid\AvidLink\Db<br>• C:\ProgramData\Avid\Licenses<br>• C:\ProgramData\Avid\SWL<br>• C:\ProgramData\Avid\Common\binding.dat</li>
+</ol>
+<ol start="4">
+<li><p>Once done deleting the two folders kindly run the “AvidAppManHelper” found on this location: C:\Program Files\Avid\Application Manager\ AvidAppManHelper.exe</p>
+</li>
+<li><p>Then proceed on running “AvidLink” found on this location : C:\Program Files\Avid\Avid Link\ AvidLink.exe</p>
+</li>
+<li><p>Launch Media Composer and proceed to activate.</p>
+</li>
+</ol>
+<p><em>FOR MAC</em></p>
+<ol>
+<li>On your Mac, kindly Open the “Activity Monitor”</li>
+<li>the stop the following<br>A. AvidLink<br>B. AvidAppManHelper</li>
+<li>Delete the following folders:<br>• HD/Library/Caches/Avid/AvidLink/Cache<br>• HD/Library/Caches/Avid/Avid Link/Db<br>• HD/Library/Application Support/Avid/Licenses<br>• HD/Library/Application Support/Avid/SWL<br>• HD/Library/Application Support/Avid/Common/binding.dat</li>
+<li>Once done deleting the two folders kindly run the “AvidAppManHelper” found on this location: Applications/Avid/Avid Link/</li>
+<li>Then proceed on running “Avid Link” found on this location : Applications/Avid/Avid Link/</li>
+<li>Then Proceed with running Media Composer.</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>learning</category>
+      </categories>
+      <tags>
+        <tag>Avid Media Composer</tag>
       </tags>
   </entry>
 </search>
